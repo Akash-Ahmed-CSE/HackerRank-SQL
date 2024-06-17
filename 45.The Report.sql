@@ -1,0 +1,1 @@
+Select If(Grade<8, NULL, Name), Grade, Marks from Students As S join Grades as G where S.Marks between G.Min_Mark and G.Max_Mark Order By Grade  Desc, Name ASC; 
